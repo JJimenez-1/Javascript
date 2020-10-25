@@ -15,11 +15,11 @@ function oddsums(n) {
         result.push(total);
     }
 
-    console.log(x);              // que sucede y por que?
-    // console.log(odd);            // que sucede y por que?
-    // console.log(total);          // que sucede y por que?
+    // console.log(x);              // No existe la variable x, fuera del bucle for
+    // console.log(odd);            // No existe la variable odd fuera del bucle for
+    // console.log(total);          // Devuelve el valor, porque se ha declarado dentro 
     
-    return result;
+    return result;                  
 }
 
 console.log(oddsums(5));            // Returns [1,4,9,16,25]
